@@ -11,12 +11,12 @@ Each file is a gentle reminder that even minor habits can make a big difference 
 
 ---
 
-## 📄 Contents
+## ✨ What’s inside
 
 - [`keeping-secrets-safe/`](keeping-secrets-safe/) — Small guide on safely storing credentials when accessing databases in R.  
 - *(Future guides may be added here as I continue to collect helpful tips and notes.)*
 
 ---
 
-This folder is part of the-drawer — my personal, creatively organized space for all the things that don’t quite fit anywhere else.  
+This folder is part of [`the-drawer`](../) — my personal, creatively organized space for all the things that don’t quite fit anywhere else.  
 Everything here is meant to be useful, thoughtful, and easy to revisit.
