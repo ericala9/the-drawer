@@ -24,7 +24,7 @@ A boa notícia é que existe uma forma simples e segura de contornar essa situa�
 5. [Reinicie o R](#5-reinicie-o-r)  
 6. [Verifique se as variáveis foram salvas corretamente](#6-verifique-se-as-variáveis-foram-salvas-corretamente)  
 7. [Acessando o banco de dados com segurança](#7-acessando-o-banco-de-dados-com-segurança)  
-8. [Onde obter mais ajuda](#onde-obter-mais-ajuda)
+8. [Onde obter mais ajuda](#8-onde-obter-mais-ajuda)
 
 ---
 
@@ -101,5 +101,6 @@ Não se preocupe em decorar esse trecho. Sempre que precisar, você pode retorna
 Seguindo esses passos, você melhora significativamente a segurança do seu ambiente de trabalho e protege suas informações pessoais.
 
 ## 8. Onde obter mais ajuda
+
 
 Caso tenha dúvidas ou dificuldades, não hesite em entrar em contato pelo e-mail [user@mail.com](mailto:user@mail.com).
