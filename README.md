@@ -19,12 +19,13 @@ You might find:
 - Command line tricks and helpers  
 - Code snippets and templates  
 - Random curiosities or side thoughts  
-- Experiments that may grow into something bigger  
+- Experiments that may grow into something bigger
+There will be times when **the-drawer** will be overflowing, and other times when it’ll be almost bare. It all depends on my mood and whether its assortment of contents has found their homes.  
 
 ---
 
 ### 🌿 About this space
-This is where I store the small, *unfinished*, and *unexpected*. A quiet corner where ideas rest before finding their home —  and sometimes, they just stay here, because they like it. 🍃  
+This is where I store the small, *unfinished*, and *unexpected*. A quiet corner where ideas rest before finding their home, and, sometimes, they just stay here, because they like it. 🍃  
 
 ---
 
