@@ -1,10 +1,3 @@
----
-title: "Acessando um Banco de Dados com Segurança no R"
-author: "Erica Ambrosio"
-date: "2025-10-20"
-tags: ["R", "segurança", "credenciais", "variáveis de ambiente"]
----
-
 # Acessando um Banco de Dados com Segurança no R
 
 Ao utilizar o R para acessar bancos de dados institucionais, é necessário informar seu login e senha. Embora seja comum inserir essas credenciais diretamente no script, essa prática representa um risco de segurança: qualquer pessoa com acesso ao seu código ou à sua tela poderá visualizar suas informações confidenciais.
@@ -104,3 +97,4 @@ Seguindo esses passos, você melhora significativamente a segurança do seu ambi
 
 
 Caso tenha dúvidas ou dificuldades, não hesite em entrar em contato pelo e-mail [user@mail.com](mailto:user@mail.com).
+
