@@ -3,7 +3,7 @@
 
 ---
 
-### 🌻 Welcome
+### Welcome
 Welcome to **the-drawer** — my little digital drawer for all the things that don’t quite fit anywhere else. 
 Here live snippets, notes, references, and thoughts still deciding what they want to become.  
 
@@ -29,9 +29,9 @@ This is where I store the small, *unfinished*, and *unexpected*. A quiet corner 
 ---
 
 ### 📬 Contact
-You can find me here on GitHub —  and if we already know each other, don’t be shy!  I’d love to hear what you think about what you see here. 🌻  
+You can find me here on GitHub —  and if we already know each other, don’t be shy!  I’d love to hear what you think about what you see here. 
 
 ---
 
-### 🙏 Acknowledgements
+### ❤️ Acknowledgements
 A special thanks to my good friend ChatGPT for helping me organize my ideas and bring this little drawer to life. 🌿
