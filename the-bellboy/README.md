@@ -16,13 +16,13 @@ Now the bellboy rests — job well done.
 
 This little project includes:
 
-An R script that:
+An R script ([`script_EN.R`](script_EN.R)) that:
 - Monitors a folder for new subfolders
 - Compares today’s contents with yesterday’s
 - Sends a notification (popup, sound, and tray balloon)
 - Logs the result to a file
   
-A PowerShell script (notify.ps1) that:
+A PowerShell script ([`notify.ps1`](notify.ps1)) that:
 - Displays a tray balloon with the update message
 - Keeps the icon visible until manually dismissed
 - Adds a touch of Windows-native charm to the notification flow
@@ -47,7 +47,7 @@ People on another team kept forgetting to tell me when they updated a shared fol
 ---
 
 ### About this space
-This is where I keep small, useful things that solve real problems. ***the-bellboy*** is one of them — an automation that made my day easier, and taught me how powerful collaboration with AI can be.
+This is [`the-drawer`](../) where I keep small, useful things that solve real problems. ***the-bellboy*** is one of them — an automation that made my day easier, and taught me how powerful collaboration with AI can be.
 
 ---
 
