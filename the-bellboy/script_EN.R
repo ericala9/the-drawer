@@ -20,7 +20,7 @@ tcltk::tclRequire("Tk")
 library(crayon)
 
 # Define folder paths
-main_folder    <- "Z:/Pasta/Interessante"                     # Folder to monitor
+main_folder    <- "Z:/Folder/Target"                     # Folder to monitor
 history_folder <- "C:/Users/erica/monitor"                    # Folder for daily history files
 log_file       <- file.path(history_folder, "folder_log.txt")# Central log file
 ps_script      <- "C:/Users/erica/project/notify.ps1"         # 🎈 PowerShell notification script
@@ -115,3 +115,4 @@ send_tray_notification(message_hello)
 
 # Append message to log file
 write(paste0("\n", message_hello), file = log_file, append = TRUE)
+
