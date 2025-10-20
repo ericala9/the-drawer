@@ -15,11 +15,11 @@ Mine? It’s *creatively organized*. 💫
 ### ✨ What’s inside
 A bit of everything — and that’s the beauty of it.  
 You might find:
-- 📄 Documentation drafts and how-to notes  
-- ⚙️ Command line tricks and helpers  
-- 🧩 Code snippets and templates  
-- 💭 Random curiosities or side thoughts  
-- 🌱 Experiments that may grow into something bigger  
+- Documentation drafts and how-to notes  
+- Command line tricks and helpers  
+- Code snippets and templates  
+- Random curiosities or side thoughts  
+- Experiments that may grow into something bigger  
 
 ---
 
