@@ -1,4 +1,4 @@
-# 📂 little-guides
+# 🧭 little-guides
 
 Tiny, practical notes born from everyday work moments —  
 when a small discovery deserves a quiet place to rest.  
@@ -11,7 +11,7 @@ Each file is a gentle reminder that even minor habits can make a big difference 
 
 ---
 
-##  Contents
+## 📄 Contents
 
 - [`keeping-secrets-safe/`](keeping-secrets-safe/) — Small guide on safely storing credentials when accessing databases in R.  
 - *(Future guides may be added here as I continue to collect helpful tips and notes.)*
