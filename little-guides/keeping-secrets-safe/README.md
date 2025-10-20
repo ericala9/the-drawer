@@ -1,4 +1,4 @@
-# 🗝️ Keeping-Secrets-Safe
+# 🗝️ keeping-secrets-safe
 
 A quiet corner dedicated to one of the most overlooked details in coding: keeping credentials private.
 
@@ -12,7 +12,7 @@ Each file serves as a gentle reminder that care in our work can start with somet
 
 ---
 
-## 📄 Contents
+## ✨ What’s inside
 
 - [`safe-db-access-in-r_PT.md`](safe-db-access-in-r_PT.md) — Step-by-step guide in Portuguese for safely accessing databases in R without exposing credentials.  
 - *(Future files may be added here as the guide evolves or translations are created.)*
