@@ -1,4 +1,4 @@
-# 🧰 the-utility-belt  
+# 🛠️ the-utility-belt  
 
 **A simple starting point for new R projects.**  
 
