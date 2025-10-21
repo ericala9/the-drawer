@@ -1,0 +1,62 @@
+# ==============================================================================
+#                          Base Script for R Projects
+# ==============================================================================
+# Title: Base Script
+# Author: Name
+# Purpose: Template with utility functions and standard setup for new R projects
+# Date: yyyy.mm.dd
+# Request: details of the demand — what, who, when, and how (email, Redmine,
+# WhatsApp)
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+#                              Environment Setup
+# ------------------------------------------------------------------------------
+
+setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
+
+options(encoding = "UTF-8")
+options(scipen = 999)
+
+require(openxlsx)
+require(dplyr)
+require(tidyr)
+require(reshape2)
+require(stringr)
+
+# ------------------------------------------------------------------------------
+#                             Data Processing
+# ------------------------------------------------------------------------------
+
+# [...]
+
+# ------------------------------------------------------------------------------
+#                             Analysis
+# ------------------------------------------------------------------------------
+
+# Add analysis code here
+
+# ------------------------------------------------------------------------------
+#                             Deliveries
+# ------------------------------------------------------------------------------
+#
+# Description of outputs, including:
+# - What was delivered
+# - Who received it
+# - When and how the delivery was made (email, Redmine, WhatsApp, etc.)
+#
+# Example:
+# Output: summary_table.xlsx sent to X on 2025.10.21 via email
+#
+# Example:
+# Output:        summary_table.xlsx
+# Recipient:     X
+# Date:          2025.10.21
+# Method:        email
+# Notes:         Sent along with the project summary report
+
+# ------------------------------------------------------------------------------
+#                             Next Steps
+# ------------------------------------------------------------------------------
+# Notes about what remains to be done or future improvements
+# ------------------------------------------------------------------------------
