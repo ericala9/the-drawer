@@ -46,7 +46,7 @@ require(stringr)
 # - When and how the delivery was made (email, Redmine, WhatsApp, etc.)
 #
 # Example:
-# Output: summary_table.xlsx sent to X on 2025.10.21 via email
+# - summary_table.xlsx sent to X on 2025.10.21 via email
 #
 # Example:
 # Output:        summary_table.xlsx
