@@ -52,7 +52,7 @@ require(stringr)
 # Output:        summary_table.xlsx
 # Recipient:     X
 # Date:          2025.10.21
-# Method:        email
+# Sent via:      email
 # Notes:         Sent along with the project summary report
 
 # ------------------------------------------------------------------------------
