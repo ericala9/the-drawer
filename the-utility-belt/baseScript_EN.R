@@ -19,6 +19,7 @@ setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 options(encoding = "UTF-8")
 options(scipen = 999)
 
+require(RODBC)
 require(openxlsx)
 require(dplyr)
 require(tidyr)
@@ -28,6 +29,10 @@ require(stringr)
 # ------------------------------------------------------------------------------
 #                             Data Preparation
 # ------------------------------------------------------------------------------
+
+db.con <- RODBC::odbcConnect("db", uid=Sys.getenv("user_bd_nome_user"),
+                                  pwd=Sys.getenv("user_bd_nome_pswd"),DBMSencoding  = "UTF-8")
+df <- RODBC::sqlQuery(db.con, paste0("select * FROM schema.table"))
 
 # [...]
 
