@@ -6,7 +6,11 @@
 ---
 
 ### Welcome
-Welcome to ***the-good-samaritan*** — a small SAS script that helped me extract exactly what I needed from a very large dataset. I’m a hardcore R user and rarely touch SAS, but at the time, the dataset I needed was only available in SAS format. The company had a SAS license, so I used it to filter and export data to .txt with a few clicks in SAS Studio, so I could read it in R.
+Welcome to ***the-good-samaritan*** — a small SAS script that helped me extract exactly what I needed from a very large dataset. 
+
+A SAS script for inspecting and filtering large datasets — built for one-time use, but surprisingly helpful.
+
+I’m a hardcore R user and rarely touch SAS, but at the time, the dataset I needed was only available in SAS format. The company had a SAS license, so I used it to filter and export data to .txt with a few clicks in SAS, so I could read it in R.
 
 This script became my quiet helper: I used it many times throughout that project. Just like the good Samaritan helped a Jewish man in need, SAS helped me even though it wasn’t my usual tool.
 
@@ -43,7 +47,7 @@ Sometimes you need to get work done, and using a different tool makes it easier.
 - Filters records by category
 - Keeps only relevant variables
 - Produces tidy outputs ready for R
-- Uses point-and-click exports in SAS Studio
+- Uses point-and-click exports in SAS
 
 ---
 
