@@ -12,6 +12,11 @@ Mine? It’s *creatively organized*. 💫
 
 ---
 
+## 🗂️ Table of Contents  
+[Welcome](#welcome) | [What’s inside](#-whats-inside) | [About this space](#-about-this-space) | [Currently in the drawer](#currently-in-the-drawer) | [Contact](#-contact) | [Acknowledgements](#️-acknowledgements)
+
+---
+
 ### ✨ What’s inside
 A bit of everything — and that’s the beauty of it.  
 You might find:
