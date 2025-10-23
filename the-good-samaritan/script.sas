@@ -6,7 +6,7 @@
 proc contents data="\\serverX\project_data\input_data\data_2025.sas7bdat";
 run;
 
-/a* ----------------------------------------------------------------------------- 
+/* ----------------------------------------------------------------------------- 
    Select relevant variables and filter records
 ----------------------------------------------------------------------------- */
 
@@ -19,3 +19,4 @@ data mydata;
       /* Keep only relevant variables */
       keep name store price month;
 run;
+
