@@ -18,6 +18,7 @@ setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 
 options(encoding = "UTF-8")
 options(scipen = 999)
+rstudioapi::writeRStudioPreference("data_viewer_max_columns", 1000L)
 
 require(RODBC)
 require(openxlsx)
