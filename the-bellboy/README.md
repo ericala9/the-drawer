@@ -7,8 +7,13 @@ Welcome to ***the-bellboy*** — a small automation that used to keep an eye on 
 
 This was my first time using AI to write code. I only had to do a few touch-ups — and honestly, I was amazed at how much time it saved me. I had a problem, explained it to Copilot, and together we built this script. It ran for months — two, but who’s counting — quietly doing its job every morning via Windows Task Scheduler, keeping me informed without reminders or manual checks.
 
-Now the bellboy rests — job well done.
+ <p align="center">
+  <img src="./img/the-bellboy_notification.png" alt="Screenshot of the-bellboy notification" width="400">
+</p>
 
+<p align="center"><em>Behold! The bellboy is in action..</em></p>
+
+Now the bellboy rests — job well done.
 
 ---
 
