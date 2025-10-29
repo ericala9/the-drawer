@@ -27,6 +27,17 @@ require(tidyr)
 require(reshape2)
 require(stringr)
 
+# Função para criar títulos centralizados de seções.
+centralizado <- function(title, width=78, border = "-", uppercase = FALSE) {
+  if (uppercase) title <- toupper(title)
+  top_bottom <- paste(rep(border, width), collapse = "")
+  pad <- floor((width - nchar(title))/2)
+  middle <- paste0(strrep(" ", pad-1), title)
+  cat("#", top_bottom, "\n# ", middle, "\n#", top_bottom, "\n")
+}
+
+centralizado("Preparação dos dados")
+
 # ------------------------------------------------------------------------------
 #                           Preparação dos dados
 # ------------------------------------------------------------------------------
