@@ -10,7 +10,7 @@
 # ==============================================================================
 
 # ------------------------------------------------------------------------------
-#                            Configuração do ambiente
+#                            Configuração do ambiente 
 # ------------------------------------------------------------------------------
 
 rm(list = ls()) 
@@ -39,7 +39,7 @@ centralizado <- function(title, width=78, border = "-", uppercase = FALSE) {
 # centralizado("Preparação dos dados")
 
 # ------------------------------------------------------------------------------
-#                           Preparação dos dados
+#                              Preparação dos dados
 # ------------------------------------------------------------------------------
 
 db.con <- RODBC::odbcConnect("db", uid=Sys.getenv("user_bd_nome_usuario"),
@@ -49,13 +49,13 @@ dados <- RODBC::sqlQuery(db.con,paste0("select * FROM esquema.tabela"))
 # [...]
 
 # ------------------------------------------------------------------------------
-#                                 Análise
+#                                    Análise 
 # ------------------------------------------------------------------------------
 
 # Escreva a análise aqui
 
 # ------------------------------------------------------------------------------
-#                                Entregas
+#                                    Entregas 
 # ------------------------------------------------------------------------------
 #
 # Descrição dos produtos, incluindo:
@@ -74,7 +74,7 @@ dados <- RODBC::sqlQuery(db.con,paste0("select * FROM esquema.tabela"))
 # Notas:         Enviado junto com o relatório de resumo do projeto
 
 # ------------------------------------------------------------------------------
-#                            Próximos passos
+#                                Próximos passos
 # ------------------------------------------------------------------------------
 # Notas sobre o que falta ser feito e o que pode ser melhorado no futuro
 # ------------------------------------------------------------------------------
