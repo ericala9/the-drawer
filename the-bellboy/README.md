@@ -11,7 +11,7 @@ This was my first time using AI to write code. I only had to do a few touch-ups 
   <img src="./img/the-bellboy_notification.png" alt="Screenshot of the-bellboy notification" width="400">
 </p>
 
-<p align="center"><em>Behold! The bellboy is in action..</em></p>
+<p align="center"><em>Behold! The bellboy is in action.</em></p>
 
 Now the bellboy rests — job well done.
 
