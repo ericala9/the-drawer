@@ -36,6 +36,8 @@ center_title <- function(title, width=78, border = "-", uppercase = FALSE) {
   cat("#", top_bottom, "\n# ", middle, "\n#", top_bottom, "\n")
 }
 
+# center_title("Data Preparation")
+
 # ------------------------------------------------------------------------------
 #                             Data Preparation
 # ------------------------------------------------------------------------------
