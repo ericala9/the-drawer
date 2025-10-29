@@ -40,7 +40,7 @@ This is where I store the small, *unfinished*, and *unexpected*. A quiet corner 
 Here’s what’s quietly resting inside right now — each one with its own story:  
 
 - [`little-guides/`](./little-guides/) — Tiny, practical notes born from everyday work moments.  
-  - Includes [`keeping-secrets-safe/`](../little-guides/keeping-secrets-safe/) — a small guide on safely storing credentials in R.  
+  - Includes [`keeping-secrets-safe/`](./little-guides/keeping-secrets-safe/) — a small guide on safely storing credentials in R.  
 
 - [`the-bellboy/`](./the-bellboy/) — An R + PowerShell duo that politely notifies when new folders appear.  
   A quiet automation that never forgets.  
