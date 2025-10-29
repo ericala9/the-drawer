@@ -39,16 +39,16 @@ This is where I store the small, *unfinished*, and *unexpected*. A quiet corner 
 
 Here’s what’s quietly resting inside right now — each one with its own story:  
 
-- [`little-guides/`](../little-guides/) — Tiny, practical notes born from everyday work moments.  
+- [`little-guides/`](./little-guides/) — Tiny, practical notes born from everyday work moments.  
   - Includes [`keeping-secrets-safe/`](../little-guides/keeping-secrets-safe/) — a small guide on safely storing credentials in R.  
 
-- [`the-bellboy/`](../the-bellboy/) — An R + PowerShell duo that politely notifies when new folders appear.  
+- [`the-bellboy/`](./the-bellboy/) — An R + PowerShell duo that politely notifies when new folders appear.  
   A quiet automation that never forgets.  
 
-- [`the-good-samaritan/`](../the-good-samaritan/) — A SAS helper that extracted data when nothing else could.  
+- [`the-good-samaritan/`](./the-good-samaritan/) — A SAS helper that extracted data when nothing else could.  
   Proof that sometimes even unlikely tools can lend a hand.  
 
-- [`the-utility-belt/`](../the-utility-belt/) — A simple R project starter kit with a base script and standard settings.  
+- [`the-utility-belt/`](./the-utility-belt/) — A simple R project starter kit with a base script and standard settings.  
   My way of starting new projects with calm and consistency.  
 
 Every item here once solved a problem — sometimes small, sometimes annoying, but always real. They may be tiny, humble, or even a bit odd, but together they tell a story: of curiosity, adaptation, and care for the craft.
