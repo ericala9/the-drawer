@@ -36,7 +36,7 @@ centralizado <- function(title, width=78, border = "-", uppercase = FALSE) {
   cat("#", top_bottom, "\n# ", middle, "\n#", top_bottom, "\n")
 }
 
-centralizado("Preparação dos dados")
+# centralizado("Preparação dos dados")
 
 # ------------------------------------------------------------------------------
 #                           Preparação dos dados
