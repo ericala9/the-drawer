@@ -1,0 +1,3 @@
+cd "C:\Users\name\Documents"
+
+pdf24-Ocr.exe -outputFile "C:\Users\name\Documents\file_output.pdf" -language por -dpi 300 "C:\Users\name\Documents\file_input.pdf"
