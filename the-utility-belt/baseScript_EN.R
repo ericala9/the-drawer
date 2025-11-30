@@ -4,7 +4,7 @@
 # Title: Base Script
 # Author: Name
 # Purpose: Template with utility functions and standard setup for new R projects
-# Date: yyyy.mm.dd
+# Date: yyyy-mm-dd
 # Request: details of the demand — what, who, when, and how (email, Redmine,
 # WhatsApp)
 # ==============================================================================
