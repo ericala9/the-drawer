@@ -4,7 +4,7 @@
 # Título: Script padrão
 # Autor: Nome
 # Objetivo: Modelo com configurações e funções padrão para novos projetos em R
-# Data: yyyy.mm.dd
+# Data: yyyy-mm-dd
 # Demanda: informações sobre a solicitação — o que foi pedido, por quem, quando 
 # e por qual meio (email, Redmine, WhatsApp)
 # ==============================================================================
