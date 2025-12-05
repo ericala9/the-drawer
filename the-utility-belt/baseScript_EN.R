@@ -80,7 +80,7 @@ if (!dir.exists("./output")) {
 # Example:
 # Output:        summary_table.xlsx
 # Recipient:     X
-# Date:          2025.10.21
+# Date:          2025-10-21
 # Sent via:      email
 # Notes:         Sent along with the project summary report
 
