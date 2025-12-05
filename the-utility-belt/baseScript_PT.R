@@ -80,7 +80,7 @@ if (!dir.exists("./output")) {
 # Exemplo:
 # Produto:       tabela_resumo.xlsx
 # Destinatário:  X
-# Data:          2025.10.21
+# Data:          2025-10-21
 # Meio de envio: email
 # Notas:         Enviado junto com o relatório de resumo do projeto
 
