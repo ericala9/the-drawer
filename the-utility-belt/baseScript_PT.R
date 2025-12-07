@@ -9,9 +9,7 @@
 # e por qual meio (email, Redmine, WhatsApp)
 # ==============================================================================
 
-# ------------------------------------------------------------------------------
-#                            Configuração do ambiente 
-# ------------------------------------------------------------------------------
+# ------------------------- Configuração do ambiente  -------------------------- 
 
 rm(list = ls()) 
 setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
@@ -40,9 +38,7 @@ centralizado <- function(title, width = 78, border = "-", uppercase = FALSE) {
 
 # centralizado("Preparação dos dados")
 
-# ------------------------------------------------------------------------------
-#                              Preparação dos dados
-# ------------------------------------------------------------------------------
+# ---------------------------- Preparação dos dados ---------------------------- 
 
 db.con <- RODBC::odbcConnect("db", uid=Sys.getenv("user_bd_nome_usuario"),
                                   pwd=Sys.getenv("user_bd_nome_senha"),DBMSencoding  = "UTF-8")
@@ -50,15 +46,11 @@ dados <- RODBC::sqlQuery(db.con,paste0("select * FROM esquema.tabela"))
 
 # [...]
 
-# ------------------------------------------------------------------------------
-#                                    Análise 
-# ------------------------------------------------------------------------------
+# ---------------------------------- Análise ----------------------------------- 
 
 # Escreva a análise aqui
 
-# ------------------------------------------------------------------------------
-#                              Exportação dos dados
-# ------------------------------------------------------------------------------
+# ---------------------------- Exportação dos dados ---------------------------- 
 
 # Criação da pasta de output se ela aidna não existir.
 if (!dir.exists("./output")) {
