@@ -52,7 +52,7 @@ dados <- RODBC::sqlQuery(db.con,paste0("select * FROM esquema.tabela"))
 
 # ---------------------------- Exportação dos dados ---------------------------- 
 
-# Criação da pasta de output se ela aidna não existir.
+# Criação da pasta de output se ela ainda não existir.
 if (!dir.exists("./output")) {
   dir.create("./output")
 }
