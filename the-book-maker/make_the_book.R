@@ -24,7 +24,7 @@
 # ----------------------------- Environment Setup ------------------------------ 
 
 rm(list = ls()) 
-# setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
+setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 
 options(encoding = "UTF-8")
 
