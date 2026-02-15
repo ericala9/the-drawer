@@ -18,7 +18,7 @@ After trying different approaches from time to time, this script turned out to b
 From this:
 
 ```
-The Garden on 42nd Street
+A House Large Enough for Two
 The Unexpected Guest
 Mrs. Higgins lived in a small blue house that smelled of cinnamon and old books. Every morning, she sat on her porch with a cup of Earl Grey, watching the city wake up. She enjoyed the routine, the quiet, and the way the sun hit her hydrangeas at exactly nine o'clock.
 ```
