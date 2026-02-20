@@ -18,12 +18,11 @@ options(encoding = "UTF-8")
 options(scipen = 999)
 rstudioapi::writeRStudioPreference("data_viewer_max_columns", 1000L)
 
-require(RODBC)
-require(openxlsx)
-require(dplyr)
-require(tidyr)
-require(reshape2)
-require(stringr)
+library(dplyr)
+library(openxlsx)
+library(RODBC)
+library(stringr)
+library(tidyr)
 
 # Função para criar títulos centralizados de seções.
 centralizado <- function(title, width = 78, border = "-", uppercase = FALSE) {
@@ -56,6 +55,13 @@ dados <- RODBC::sqlQuery(db.con,paste0("select * FROM esquema.tabela"))
 if (!dir.exists("./output")) {
   dir.create("./output")
 }
+
+write.xlsx(
+  objeto_final, 
+  file = paste0("output/nomeDoArquivo", format(Sys.Date(), "%Y%m%d"), ".xlsx"),
+  colWidths = "auto",
+  headerStyle = createStyle(textDecoration = "bold")
+)
 
 # ------------------------------------------------------------------------------
 #                                    Entregas 
