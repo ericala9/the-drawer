@@ -18,9 +18,10 @@ options(encoding = "UTF-8")
 options(scipen = 999)
 rstudioapi::writeRStudioPreference("data_viewer_max_columns", 1000L)
 
+library(DBI)
 library(dplyr)
+library(odbc)
 library(openxlsx)
-library(RODBC)
 library(stringr)
 library(tidyr)
 
@@ -39,9 +40,13 @@ centralizado <- function(title, width = 78, border = "-", uppercase = FALSE) {
 
 # ---------------------------- Preparação dos dados ---------------------------- 
 
-db.con <- RODBC::odbcConnect("db", uid=Sys.getenv("user_bd_nome_usuario"),
-                                  pwd=Sys.getenv("user_bd_nome_senha"),DBMSencoding  = "UTF-8")
-dados <- RODBC::sqlQuery(db.con,paste0("select * FROM esquema.tabela"))
+db <- dbConnect(odbc::odbc(),
+                dsn = "db_novo", 
+                uid = Sys.getenv("user_bd_nome_usuario"),
+                pwd = Sys.getenv("user_bd_nome_senha"),
+                TrustServerCertificate = "yes")
+
+dados <- DBI::dbGetQuery(db, "select * from tabela.schema.base")
 
 # [...]
 
