@@ -24,6 +24,7 @@ library(odbc)
 library(openxlsx)
 library(stringr)
 library(tidyr)
+library(utilitybelt)
 
 # Função para criar títulos centralizados de seções.
 centralizado <- function(title, width = 78, border = "-", uppercase = FALSE) {
