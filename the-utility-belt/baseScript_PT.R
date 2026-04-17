@@ -64,7 +64,7 @@ if (!dir.exists("./output")) {
 
 write.xlsx(
   objeto_final, 
-  file = paste0("output/nomeDoArquivo", format(Sys.Date(), "%Y%m%d"), ".xlsx"),
+  file = next_version("output/nomeDoArquivo.xlsx"),
   colWidths = "auto",
   headerStyle = createStyle(textDecoration = "bold")
 )
